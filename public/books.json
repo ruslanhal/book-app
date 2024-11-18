@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "imageUrl": "https://m.media-amazon.com/images/I/71FxgtFKcQL._AC_UF1000,1000_QL80_.jpg",
+    "description": "A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice."
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "imageUrl": "https://m.media-amazon.com/images/I/71sOSrd+JxL._AC_UF1000,1000_QL80_.jpg",
+    "description": "Orwell's dystopian vision of a government that will do anything to control the narrative."
+  },
+  {
+    "id": 3,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "imageUrl": "https://m.media-amazon.com/images/I/81QuEGw8VPL.jpg",
+    "description": "A portrait of the Jazz Age in all of its decadence and excess, Gatsby captured the spirit of the author's generation."
+  },
+  {
+    "id": 4,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "imageUrl": "https://m.media-amazon.com/images/I/812wzoJvRLL._AC_UF1000,1000_QL80_.jpg",
+    "description": "Austen's tale of love and economics reaches us with a clarity that is undiminished by the two centuries since its publication."
+  },
+  {
+    "id": 5,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "imageUrl": "https://m.media-amazon.com/images/I/8125BDk3l9L.jpg",
+    "description": "A world-weary, ancient child of sixteen, who was uncomprehendingly expelled from academic paradise."
+  },
+  {
+    "id": 6,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "imageUrl": "https://m.media-amazon.com/images/I/712cDO7d73L._AC_UF1000,1000_QL80_.jpg",
+    "description": "Bilbo Baggins, a hobbit enjoying his quiet life, is swept into an epic quest by Gandalf the Grey and thirteen dwarves who seek to reclaim their mountain home from Smaug, the dragon."
+  },
+  {
+    "id": 7,
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "imageUrl": "https://www.britishbook.ua/upload/resize_cache/iblock/f8e/3xdlbkrrm9uvwamzi2on6tzxgzf3kxta/1900_800_174b5ed2089e1946312e2a80dcd26f146/knyga_moby_dick.jpg",
+    "description": "Captain Ahab's obsessive quest for the white whale is a multifaceted masterwork."
+  },
+  {
+    "id": 8,
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "imageUrl": "https://m.media-amazon.com/images/I/81DI+BAN2SL._AC_UF1000,1000_QL80_.jpg",
+    "description": "Harry Potter has been living an ordinary life, constantly abused by his aunt and uncle, but he is whisked away to a world of magic and fantasy."
+  },
+  {
+    "id": 9,
+    "title": "The Diary of a Young Girl",
+    "author": "Anne Frank",
+    "imageUrl": "https://m.media-amazon.com/images/I/51Eyjz65gyL._AC_UF1000,1000_QL80_.jpg",
+    "description": "The story of Anne Frank, a Jewish victim of the Holocaust, through her own poignant words."
+  },
+  {
+    "id": 10,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "imageUrl": "https://m.media-amazon.com/images/I/71wXZB-VtBL.jpg",
+    "description": "A sweeping narrative of the tumultuous era that was the Napoleonic Age."
+  },
+  {
+    "id": 11,
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "imageUrl": "https://m.media-amazon.com/images/I/71H2SJik5AL._AC_UF894,1000_QL80_.jpg",
+    "description": "A story narrated by Death, it's about a young girl's relationship with her foster parents, the other residents of their neighborhood, and a Jewish fist-fighter."
+  },
+  {
+    "id": 12,
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "imageUrl": "https://m.media-amazon.com/images/I/7125+5E40JL._AC_UF1000,1000_QL80_.jpg",
+    "description": "An epic fantasy of the endless quest of the Fellowship of the Ring, and one of the greatest stories ever told."
+  },
+  {
+    "id": 13,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "imageUrl": "https://m.media-amazon.com/images/I/61HAE8zahLL._AC_UF1000,1000_QL80_.jpg",
+    "description": "The mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure."
+  },
+  {
+    "id": 14,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "imageUrl": "https://m.media-amazon.com/images/I/61l8LHt4MeL._AC_UF1000,1000_QL80_.jpg",
+    "description": "A dystopian future where literature is on the brink of extinction."
+  },
+  {
+    "id": 15,
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "imageUrl": "https://m.media-amazon.com/images/I/81pwJjgcwwL._AC_UF1000,1000_QL80_.jpg",
+    "description": "The struggles of Jane Eyre, an orphaned young woman, to maintain her dignity through periods of hardship."
+  },
+  {
+    "id": 16,
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "imageUrl": "https://m.media-amazon.com/images/I/71je3-DsQEL._AC_UF1000,1000_QL80_.jpg",
+    "description": "A farm's revolt against their human master by the animals who wanted equality but the pigs take over."
+  },
+  {
+    "id": 17,
+    "title": "Gone with the Wind",
+    "author": "Margaret Mitchell",
+    "imageUrl": "https://m.media-amazon.com/images/I/718gkx8l6pL.jpg",
+    "description": "A tale of war and passion, following the life of Scarlett O'Hara during and after the Civil War."
+  },
+  {
+    "id": 18,
+    "title": "The Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "imageUrl": "https://m.media-amazon.com/images/I/91sBZnKzEfL._AC_UF1000,1000_QL80_.jpg",
+    "description": "The story of Huck Finn and his companion, the slave Jim, as they journey down the Mississippi River."
+  },
+  {
+    "id": 19,
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "imageUrl": "https://m.media-amazon.com/images/I/81yN7h6yG-L._AC_UF1000,1000_QL80_.jpg",
+    "description": "The epic tale of the Joad family's migration from the Dust Bowl of Oklahoma to California in search of a better life."
+  },
+  {
+    "id": 20,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "imageUrl": "https://m.media-amazon.com/images/I/71GNqqXuN3L._AC_UF1000,1000_QL80_.jpg",
+    "description": "A chilling dystopian tale of the foresight of social control, through the diminishment of individuality."
+  }
+]
