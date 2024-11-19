@@ -3,9 +3,9 @@
 const Contact = () => {
   return (
     <div className="container mx-auto px-4 py-8 mt-24 sm:mt-40">
-      <h1 className="text-3xl sm:text-4xl font-bold text-center mb-6">
+      <h2 className="text-3xl sm:text-4xl font-bold text-center mb-6">
         Contact Us
-      </h1>
+      </h2>
       <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md max-w-2xl mx-auto">
         <p className="text-base sm:text-lg text-gray-700 mb-4">
           We'd love to hear from you! Whether you have a question about our book

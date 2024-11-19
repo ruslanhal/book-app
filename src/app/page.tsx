@@ -2,24 +2,21 @@
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { Book } from "@/types/book";
+import { fetchBooks } from "@/utils/fetchBooks";
 
-interface Book {
-  id: number;
-  title: string;
-  author: string;
-  imageUrl: string;
-  description: string;
-}
-
-const Home: React.FC = () => {
+const Home = () => {
   const [books, setBooks] = useState<Book[]>([]);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("/books.json")
-      .then((response) => response.json())
-      .then((data: Book[]) => setBooks(data))
-      .catch((error) => console.error("Error fetching books:", error));
-  }, []);
+    fetchBooks()
+      .then(setBooks)
+      .catch((error) => setError(error.message));
+  }, [fetchBooks]);
+
+  if (error) return <div>Error loading books: {error}</div>;
+  if (!books.length) return <div>Loading...</div>;
 
   return (
     <div className="container mx-auto px-4 mb-10">

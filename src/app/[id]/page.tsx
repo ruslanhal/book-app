@@ -1,15 +1,9 @@
 "use client";
 
-import { useParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
-
-interface Book {
-  id: number;
-  title: string;
-  author: string;
-  imageUrl: string;
-  description: string;
-}
+import { useParams } from "next/navigation";
+import { Book } from "@/types/book";
+import { fetchBookById } from "@/utils/fetchBooks";
 
 const BookDetail: React.FC = () => {
   const { id } = useParams() as { id: string };
@@ -17,17 +11,14 @@ const BookDetail: React.FC = () => {
 
   useEffect(() => {
     if (id) {
-      fetch(`/books.json`)
-        .then((response) => response.json())
-        .then((data: Book[]) => {
-          const selectedBook = data.find((b) => b.id.toString() === id);
-          setBook(selectedBook || null);
-        })
+      fetchBookById(id)
+        .then(setBook)
         .catch((error) => console.error("Error fetching book details:", error));
     }
   }, [id]);
 
   if (!book) return <div>Loading...</div>;
+  if (!id) return <div>Book ID not found!</div>;
 
   return (
     <div className="flex justify-center items-center h-screen p-4">
